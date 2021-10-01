@@ -12,6 +12,11 @@ app.get('/home', (req,res) => {
     res.sendFile(fileToSend);
 });
 
+app.get('/', (req,res) => {
+    const fileToSend = path.join(__dirname, '/views/home.html')
+    res.sendFile(fileToSend);
+});
+
 app.get('/login', (req,res)=>{
     res.sendFile(__dirname + '/views/login.html');
 });

@@ -41,30 +41,39 @@
         <main class="main-register">
         <div class="register">
             <form class="form-register" action="/home" method="GET">
+            <div class="table-register">
+                <div class="input-regl-register">
                 <input class="input-login" required maxlength="50" minlength="3" type="text" name="name" placeholder="Nombre y apellido">
+                </div>
+                <div class="input-regl-register">                
                 <input class="input-login" required maxlength="50" minlength="3" type="text" name="user" placeholder="Nombre de usuario">
-                <input class="input-login" required maxlength="50" minlength="3" type="email" name="email" placeholder="E-mail">
-                <br>
-                
-                <label for="birth_date"><b>Fecha de nacimiento</b></label>
-                <br>
-                <br>
-                <input required class="input-login" type="date" name="birth_date" id="birth_date">
-                <br>
+                </div>
+                <div class="input-regl-register">
+                    <input class="input-login" required maxlength="50" minlength="3" type="email" name="email" placeholder="E-mail">
+                </div>
+            </div>            
+            <label for="birth_date"><b>Fecha de nacimiento</b></label>
+            <div class="table-register">
+                <div class="input-birthdate-regl-register">
+                    <input required class="input-login" type="date" name="birth_date" id="birth_date">
+                </div>
+            </div>
+            <div class="table-register">
+                <div class="input-address-regl-register">
                 <input required maxlength="50" minlength="3" class="input-login" type="text" name="addres" placeholder="Domicilio">
-                <br>
-                <h4>Perfil del usuario</h4>
-                <br>                
+                </div>
+            </div>
+            <div class="table-register-checkbox">
+                <h4 class="h4-register-class">Perfil del usuario</h4>
                 <div class="profile">
                     <input type="radio" name="profile" value="buy" id="buy">
                     <label  for="buy">Comprador</label>
                     <input type="radio" name="profile" value="sell" id="sell">
                     <label  for="sell">Vendedor</label>
                 </div>
-                <br>
-                <h4>Intereses</h4>
-                <br>
-
+            </div>
+            <div class="table-register-checkbox">                
+                <h4 class="h4-register-class">Intereses</h4>
                 <div class="interests">
                     <div>
                         <input type="checkbox" name="interests" value="a" id="a">
@@ -87,22 +96,26 @@
                         <label for="e">Vida sana</label>
                     </div>
                 </div>
-                <br>                
-                <h4>Elegí tu foto de usuario</h4>
-                <br>
-
-                <input required class="input-login" type="file" name="avatar">
-                <br>
-                
-                <input required maxlength="50" minlength="3" class="input-login" type="password" name="pass" placeholder="Elegí tu contraseña">
-                <input required maxlength="50" minlength="3" class="input-login" type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
-                <br>
-                <br>
-                <input class="button-register" type="submit" value="Enviar">
-                <br>
-                <br>
-                <input class="button-register" type="reset" value="Borrar">
-                <br>
+            </div>
+                <div class="table-register-checkbox">    
+                <h4 class="h4-register-class">Elegí tu foto de usuario</h4>
+                    <input required class="input-login" type="file" name="avatar">
+                </div>
+                <div class="table-register-password">
+                    <input required maxlength="50" minlength="3" class="input-login" type="password" name="pass" placeholder="Elegí tu contraseña">
+                    <input required maxlength="50" minlength="3" class="input-login" type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+                </div>
+                <div class="table-register">
+                    <div class="table-button-container">
+                        <div class="table-button-container-ind">
+                        <input class="button-register" type="submit" value="Enviar">
+                    </div>
+                    <div class="table-button-container-ind">
+                        <input class="button-register" type="reset" value="Borrar">
+                    </div>
+                    </div>
+                </div>
+            </div>                
             </form>
         </div>
         </main>

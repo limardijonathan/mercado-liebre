@@ -239,6 +239,66 @@ article div.main-article{
   .nav-bar{
   display: none;
   }
+
+  .button-register{
+    width: 70%;
+    background-color:#0044AA;
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    font-size: 11px;
+    line-height: 3;
+    font-weight: 600;
+  }
+  
+  .button-login:hover{
+    background-color: #0022AA;
+  }
+  
+  .table-register{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .input-login{
+    padding-left: 5px;
+  }
+  
+  .input-regl-register{
+    width: 100%;
+  }
+  .input-birthdate-regl-register{
+    width: 100%
+  }
+  
+  .input-address-regl-register{
+    width: 100%;
+  }
+  .table-register-checkbox{
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+  }
+  
+  .table-button-container{
+    display: flex;
+    width: 100%;
+  }
+  
+  .table-button-container-ind{
+    width: 30%;
+  }
+  
+  .table-register-password{
+    width: 100%;
+  }
+  .h4-register-class{
+  margin-bottom: 10px;
+  }
+
+
 }
 
 @media (min-width: 769px){
@@ -289,6 +349,67 @@ article div.main-article{
 .div-footer{
   display: flex;
 }
+
+.button-register{
+  width: 70%;
+  background-color:#0044AA;
+  color: white;
+  border-radius: 6px;
+  border: 0;
+  font-size: 11px;
+  line-height: 3;
+  font-weight: 600;
+}
+
+.button-login:hover{
+  background-color: #0022AA;
+}
+
+.table-register{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.input-login{
+  padding-left: 5px;
+}
+
+.input-regl-register{
+  width: 100%;
+}
+.input-birthdate-regl-register{
+  width: 33%
+}
+
+.input-address-regl-register{
+  width: 47%;
+}
+.table-register-checkbox{
+  display: flex;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+
+.table-button-container{
+  display: flex;
+  width: 100%;
+}
+
+.table-button-container-ind{
+  width: 30%;
+}
+
+.table-register-password{
+  width: 33%;
+}
+.h4-register-class{
+margin-bottom: 10px;
+}
+
+
 }
 .nav-item{
   display: inline-block;
@@ -334,7 +455,7 @@ footer{
 
 .input-login{
   width: 70%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border-radius: 6px;
   border: 0;
   font-size: 11px;
@@ -354,26 +475,3 @@ footer{
   font-weight: 600;
 }
 
-.button-register{
-  width: 70%;
-  background-color:#0044AA;
-  color: white;
-  border-radius: 6px;
-  border: 0;
-  font-size: 11px;
-  line-height: 3;
-  font-weight: 600;
-}
-
-.button-login:hover{
-  background-color: #0022AA;
-}
-
-.register{
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
-  width: 100%;
-}
